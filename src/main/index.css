@@ -1,0 +1,79 @@
+#banner {
+  height: 600px;
+  background-color: white;
+}
+
+#banner > img {
+  width: 100%;
+}
+
+#body > h1 {
+  margin-top: 16px;
+}
+
+#lecture-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 12px;
+}
+
+.lecture-card {
+  width: 280px;
+  height: 280px;
+  margin-right: 12px;
+  margin-bottom: 140px;
+}
+
+.lecture-img {
+  width: 280px;
+  height: 280px;
+  border-radius: 24px;
+}
+
+.lecture-contents {
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+}
+
+.lecture-name {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.lecture-price {
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 6px;
+}
+
+.lecture-motivator {
+  display: flex;
+  align-items: center;
+}
+
+.lecture-avatar {
+  width: 24px;
+}
+
+.lecture-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.lecture-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 12px;
+}
+
+.lecture-date {
+  font-size: 12px;
+  color: rgb(136, 136, 136);
+}
+
+#lecture-headline {
+  font-weight: 800;
+  margin-top: 16;
+}
